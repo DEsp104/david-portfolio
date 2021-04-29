@@ -8,7 +8,7 @@ export default function Works() {
 
 
   return (
-    <div>
+    <div id="works">
       <h2>Work</h2>
     </div>
   )
