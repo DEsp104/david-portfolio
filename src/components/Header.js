@@ -1,6 +1,8 @@
 import logo from "../images/logos/logo.svg";
 // import { NavLink } from "react-router-dom";
-import { Link } from "react-scroll"
+import { Link } from "react-scroll";
+import React, { useEffect, useState } from "react";
+import "../styles/header.css"
 
 
 
@@ -8,9 +10,30 @@ import { Link } from "react-scroll"
 
 export default function Header() {
 
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const offSetY = window.scrollY;
+
+    if (offSetY > 180) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  })
+
+  let classNameNav = ["navbar"]
+
+  if (scrolled) {
+    classNameNav.push("scrolled");
+  }
+
   return (
-    <header>
-      <div>
+    <header className={classNameNav.join(" ")}>
         <h1><img src={logo} alt="" /></h1>
         <nav>
           <ul>
@@ -37,7 +60,6 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-      </div>  
     </header>
   )
 }

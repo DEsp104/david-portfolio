@@ -12,7 +12,7 @@ export default function Works() {
   return (
     <div id="works">
       <h2>Portfolio</h2>
-      <div class="underline"></div>
+      <div className="underline"></div>
       <div>
         <img src={bloom} alt="" />
         <img src={pokie_api} alt="" />

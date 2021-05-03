@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div id="contact">
       <h2>Contact</h2>
-      <div class="underline"></div>
+      <div className="underline"></div>
       <ul>
         <li><a href="https://github.com/DEsp04"><img src={github} alt="" /></a></li>
         <li><a href="mailto:davespinal04@gmail.com"><img src={mail} alt="davespinal04@gmail.com" /></a></li>
