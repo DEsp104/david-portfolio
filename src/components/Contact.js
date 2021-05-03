@@ -16,9 +16,9 @@ export default function Home() {
       <h2>Contact</h2>
       <div class="underline"></div>
       <ul>
-        <li><img src={github} alt="" /></li>
-        <li><img src={mail} alt="" /></li>
-        <li><img src={linkedin} alt="" /></li>
+        <li><a href="https://github.com/DEsp04"><img src={github} alt="" /></a></li>
+        <li><a href="mailto:davespinal04@gmail.com"><img src={mail} alt="davespinal04@gmail.com" /></a></li>
+        <li><a href="https://www.linkedin.com/in/david-espinal-28b91a1b7/"><img src={linkedin} alt="" /></a></li>
       </ul>
       
     </div>
