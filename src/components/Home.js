@@ -5,12 +5,18 @@ import css from "../images/programmingLogo/css3.svg";
 import javascript from "../images/programmingLogo/js.svg";
 import mongodb from "../images/programmingLogo/mongodb.svg";
 import react from "../images/programmingLogo/react.svg";
-
+import figma from "../images/programmingLogo/figma.svg";
+import express from "../images/programmingLogo/express.svg";
+import node from "../images/programmingLogo/node.svg";
+import tailwind from "../images/programmingLogo/tailwind.svg";
+import { indexOf } from "lodash";
 
 
 
 
 export default function Home() {
+
+  const logos = [html, css, javascript, mongodb, react, figma, express, node, tailwind]
   
 
 
@@ -21,11 +27,11 @@ export default function Home() {
           <h2>Hi, I'm David Espinal</h2>
           <p>I'm a Software Developer</p>
           <ul>
-            <li><img src={html} alt="" /></li>
-            <li><img src={css} alt="" /></li>
-            <li><img src={javascript} alt="" /></li>
-            <li><img src={react} alt="" /></li>
-            <li><img src={mongodb} alt="" /></li>
+            {logos.map((logo, index) => {
+              return (
+                <li><img src={logo} key={index} alt="" /></li>
+              )
+            })}
           </ul>
         </div>
         <div>
