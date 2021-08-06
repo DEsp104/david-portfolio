@@ -55,7 +55,7 @@ export default function Header() {
     <header className={classNameNav.join(" ")}>
         <h1><img src={logo} alt="" /></h1>
         <nav>
-         <ul>
+         <ul className="displayNav">
           {
             linkTo.map((link, index) => {
             return (<li key={index}>
@@ -65,10 +65,12 @@ export default function Header() {
             </li>)
             })
           }
-          <li>
-            <HamburgerIcon />
-          </li>
-          </ul>
+          
+        </ul>
+   
+        <div className="displayHamburger">
+          <HamburgerIcon />
+        </div>  
         </nav>
     </header>
   )

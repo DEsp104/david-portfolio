@@ -11,8 +11,8 @@ export default function HamburgerIcon() {
   const [isOpen, setOpen] = useState(false)
 
   return (
-    <div>
-      <Hamburger toggled={isOpen} toggle={setOpen} />
+    <div className="hamburger-backgrnd">
+      <Hamburger size={20} toggled={isOpen} toggle={setOpen} />
     </div>
   )
 }
