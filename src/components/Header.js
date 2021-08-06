@@ -3,10 +3,10 @@ import logo from "../images/logos/logo.svg";
 import { Link } from "react-scroll";
 import React, { useEffect, useState } from "react";
 import "../styles/header.css"
+import HamburgerIcon from "./Hamburger";
 
 
-
-
+// https://hamburger-react.netlify.app/
 
 export default function Header() {
 
@@ -65,6 +65,9 @@ export default function Header() {
             </li>)
             })
           }
+          <li>
+            <HamburgerIcon />
+          </li>
           </ul>
         </nav>
     </header>
