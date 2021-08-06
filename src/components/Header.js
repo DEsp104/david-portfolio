@@ -12,6 +12,25 @@ export default function Header() {
 
   const [scrolled, setScrolled] = useState(false);
 
+  const linkTo = [
+    {
+      name: "Home",
+      to: "home",
+    },
+    {
+      name: "About",
+      to: "about",
+    },
+    {
+      name: "Works",
+      to: "works",
+    },
+    {
+      name: "Contact",
+      to: "contact",
+    }
+  ]
+
   const handleScroll = () => {
     const offSetY = window.scrollY;
 
@@ -36,28 +55,16 @@ export default function Header() {
     <header className={classNameNav.join(" ")}>
         <h1><img src={logo} alt="" /></h1>
         <nav>
-          <ul>
-            <li>
-              <Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>
-                  Home
+         <ul>
+          {
+            linkTo.map((link, index) => {
+            return (<li key={index}>
+              <Link activeClass="active" to={link.to} spy={true} smooth={true} offset={0} duration={500}>
+                {link.name}
               </Link>
-            </li>
-            <li>
-              <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500}>
-                  About
-              </Link>
-            </li> 
-
-            <li>
-              <Link activeClass="active" to="works" spy={true} smooth={true} offset={0} duration={500}>
-                  Works
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>
-                  Contact
-              </Link>
-            </li>
+            </li>)
+            })
+          }
           </ul>
         </nav>
     </header>

@@ -16,7 +16,7 @@ import { indexOf } from "lodash";
 
 export default function Home() {
 
-  const logos = [html, css, javascript, mongodb, react, figma, express, node, tailwind]
+  const logos = [html, css, javascript, mongodb, react, figma, express, node, tailwind];
   
 
 
@@ -29,7 +29,7 @@ export default function Home() {
           <ul>
             {logos.map((logo, index) => {
               return (
-                <li><img src={logo} key={index} alt="" /></li>
+                <li key={index}><img src={logo}  alt="" /></li>
               )
             })}
           </ul>

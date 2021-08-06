@@ -1,21 +1,52 @@
 
 /* Header */
-.navbar {
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #eee;
-  transition: all .2s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
 }
 
-.scrolled{
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: lightblue;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    transition: all .2s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1400px) {
+
+
 }
