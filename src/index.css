@@ -1,5 +1,17 @@
+:root {
+  --heavy-metal: #454544;
+  --porche: #EFB560;
+  --di-serria: #DC9852;
+  --tana: #B7B39F;
+  --white-smoke: #F0F0F0;
+  --trout: #474D4F;
+  --title-font: "Ubuntu", sans-serif;
+  --body-font: "Questrial", sans-serif;
+}
+
 html {
   box-sizing: border-box;
+  background-color: var(--white-smoke);
 }
 
 *, *::before, *::after{

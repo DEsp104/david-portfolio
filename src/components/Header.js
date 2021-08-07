@@ -67,11 +67,10 @@ export default function Header() {
           }
           
         </ul>
-   
-        <div className="displayHamburger">
+      </nav>
+      <div className="displayHamburger">
           <HamburgerIcon />
-        </div>  
-        </nav>
+      </div>  
     </header>
   )
 }
