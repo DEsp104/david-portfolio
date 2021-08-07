@@ -10,6 +10,7 @@ import express from "../images/programmingLogo/express.svg";
 import node from "../images/programmingLogo/node.svg";
 import tailwind from "../images/programmingLogo/tailwind.svg";
 import { indexOf } from "lodash";
+import "../styles/home.css"
 
 
 
@@ -21,12 +22,14 @@ export default function Home() {
 
 
   return (
-    <div id="home">
-      <div>
-        <div>
-          <h2>Hi, I'm David Espinal</h2>
-          <p>I'm a Software Developer</p>
-          <ul>
+    <div id="home" className="home">
+      <div className="flex">
+        <div className="flex-column-justify intro">
+          <div>
+            <h2><span className="porshe">Hi, I'm</span> David Espinal</h2>
+            <p>I'm a Software Developer</p>
+          </div>
+          <ul className="flex wrap list-style flex-center logo">
             {logos.map((logo, index) => {
               return (
                 <li key={index}><img src={logo}  alt="" /></li>
@@ -34,7 +37,7 @@ export default function Home() {
             })}
           </ul>
         </div>
-        <div>
+        <div className="self-image">
           <img src={selfImage} alt="" />
         </div>  
       </div>

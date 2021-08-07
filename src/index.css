@@ -9,6 +9,12 @@
   --body-font: "Questrial", sans-serif;
 }
 
+/* html, body {
+  margin:0px;
+  height:100%;
+} */
+
+
 html {
   box-sizing: border-box;
   background-color: var(--white-smoke);

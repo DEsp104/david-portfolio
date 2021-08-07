@@ -86,9 +86,9 @@
     list-style-type: none;
     padding: 30px 36px 48px 36px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
-    border-left: 7px solid var(--white-smoke);
-    border-right: 7px solid var(--white-smoke);
-    border-bottom: 7px solid var(--white-smoke);
+    border-left: 3px solid var(--white-smoke);
+    border-right: 3px solid var(--white-smoke);
+    border-bottom: 3px solid var(--white-smoke);
   }
 
   .hamMenu li {
@@ -110,12 +110,16 @@
     font-weight: bold;
   }
 
-  .hamMenu li a:hover {
+  /* .hamMenu li a:hover {
     color: var(--heavy-metal);
     border-bottom: 3px solid var(--white-smoke);
 
+  } */
+  
+  .active {
+    border-bottom: 3px solid var(--white-smoke);
+    color: var(--heavy-metal);
   }
-
 }
 
 /* Large devices (laptops/desktops, 882px and up) */

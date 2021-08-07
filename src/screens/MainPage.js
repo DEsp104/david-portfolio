@@ -17,6 +17,7 @@ export default function MainPage() {
       <About />
       <Works />
       <Contact />
+      <div></div>
     </div>
   )
 }
