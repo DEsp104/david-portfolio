@@ -38,7 +38,7 @@ export default function HamburgerIcon() {
           {
             linkTo.map((link, index) => {
               return (<li key={index}>
-                <Link activeClass="active" to={link.to} spy={true} smooth={true} offset={0} duration={500}>
+                <Link activeClass="active" to={link.to} spy={true} smooth={true} offset={-136} duration={500}>
                   {link.name}
                 </Link>
               </li>)

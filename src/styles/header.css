@@ -135,6 +135,10 @@
     border-bottom: 3px solid var(--porche);
   }
 
+  .active {
+    border-bottom: 3px solid var(--porche);
+  }
+
   .displayHamburger {
     display: none;
   }

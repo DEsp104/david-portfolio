@@ -20,7 +20,7 @@
 @media only screen and (min-width: 600px) {
   .home {
     display: flex;
-    /* margin-top: 85px; */
+    margin-top: 85px;
     font-family: var(--body-font);
     height: 100vh;
     margin-bottom: 12%;
@@ -55,6 +55,7 @@
   .logo {
     padding: 0;
     padding-right: 3rem;
+    margin-top: 12%;
   }
 
   .logo li {
@@ -75,6 +76,11 @@
     font-family: var(--title-font);
     color: var(--heavy-metal);
     width: 461px;
+  }
+
+  .intro p {
+    font-size: 2vw;
+    color: var(--heavy-metal);
   }
 
   .porshe {
