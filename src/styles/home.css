@@ -71,7 +71,7 @@
 
   .logo li {
     padding: 0 0.5rem;
-    width: 53px;
+    width: 11%;
   }
 
   .logo li img {
@@ -95,7 +95,7 @@
   }
 
   .intro p {
-    font-size: 2vw;
+    font-size: 2.9vw;
     color: var(--heavy-metal);
     text-align: center;
   }
@@ -121,7 +121,7 @@
     font-family: var(--body-font);
     height: 650px;
     /* margin-bottom: 12%; */
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
 
     align-items: center;
     padding-top: 10rem;
@@ -143,7 +143,7 @@
   }
   
   .mobile-self-image {
-    width: 600px;
+    width: 559px;
     margin: 0 auto;
   }
 
@@ -188,17 +188,17 @@
   }
 
   .intro h2 {
-    font-size: 5vw;
+    font-size: 3.4rem;
     font-family: var(--title-font);
     color: var(--heavy-metal);
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 
   .intro p {
-    font-size: 2vw;
+    font-size: 1.9rem;
     color: var(--heavy-metal);
-    text-align: center;
+    /* text-align: center; */
   }
 
   .porshe {
@@ -210,21 +210,22 @@
     flex-direction: column;
     justify-content: space-around;
   }
-
-
 }
 
-/* Large devices (laptops/desktops, 882px and up) */
-@media only screen and (min-width: 882px) {
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
   .home {
     margin-top: 85px;
     /* margin-top: 20%; */
-    justify-content: inherit;
+    justify-content: space-evenly;
+    /* height: 100vh; */
   }
 
   .self-image {
     display: block;
-    width: 47%;
+    width: 294px;
   }
 
   .self-image img {
@@ -256,17 +257,44 @@
     margin-top: 12%;
   }
 
-}
+  /* .self-image {
+    display: none;
+    width: 560px;
+  }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+  .intro h2 {
+    font-size: 4.6rem;
+    font-family: var(--title-font);
+    color: var(--heavy-metal);
+    width: 100%;
+  }
 
+  .intro p {
+    font-size: 2.9rem;
+    color: var(--heavy-metal);
+  } */
   
 
 }
 
+
+
+/* Large devices (laptops/desktops, 882px and up) */
+@media only screen and (min-width: 882px) {
+  .self-image {
+    width: 396px;
+  }
+
+}
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .self-image {
+    width: 696px;
+  }
+  
+}
 
 
 /* Extra large devices (large laptops and desktops, 1300px and up) */
