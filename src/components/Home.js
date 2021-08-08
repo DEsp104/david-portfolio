@@ -23,11 +23,14 @@ export default function Home() {
 
   return (
     <div id="home" className="home">
-      <div className="flex">
+      <div className="flex intro-bio">
         <div className="flex-column-justify intro">
           <div>
             <h2><span className="porshe">Hi, I'm</span> David Espinal</h2>
             <p>I'm a Software Developer</p>
+            <div className="mobile-self-image">
+          <img src={selfImage} alt="" />
+        </div>
           </div>
           <ul className="flex wrap list-style flex-center logo">
             {logos.map((logo, index) => {

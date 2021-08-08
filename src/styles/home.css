@@ -20,7 +20,7 @@
 @media only screen and (min-width: 600px) {
   .home {
     display: flex;
-    margin-top: 85px;
+    margin-top: 20%;
     font-family: var(--body-font);
     height: 100vh;
     margin-bottom: 12%;
@@ -36,10 +36,19 @@
   }
 
   .self-image {
-    width: 47%;
+    /* width: 47%; */
+    display: none;
   }
   
+  .mobile-self-image {
+    width: 47%;
+  }
+
   .self-image img {
+    width: 100%;
+  }
+
+  .mobile-self-image img{
     width: 100%;
   }
 
@@ -67,20 +76,26 @@
     width: 100%;
   }
 
+  intro-bio {
+    width: 100%;
+  }
+
   .intro {
-    width: 60%;
+    width: 100%;
   }
 
   .intro h2 {
     font-size: 5vw;
     font-family: var(--title-font);
     color: var(--heavy-metal);
-    width: 461px;
+    width: 100%;
+    text-align: center;
   }
 
   .intro p {
     font-size: 2vw;
     color: var(--heavy-metal);
+    text-align: center;
   }
 
   .porshe {
@@ -98,8 +113,40 @@
 
 /* Large devices (laptops/desktops, 882px and up) */
 @media only screen and (min-width: 882px) {
+  .home {
+    margin-top: 85px;
+  }
 
+  .self-image {
+    display: block;
+    width: 47%;
+  }
 
+  .self-image img {
+    width: 100%;
+  }
+
+  .mobile-self-image {
+    display: none;
+  }
+
+  intro-bio {
+    width: 100%;
+  }
+
+  .intro {
+    width: 60%;
+  }
+
+  .intro h2 {
+    text-align: left;
+    width: 461px;
+  }
+
+  .intro p {
+    text-align: left;
+  }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
