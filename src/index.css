@@ -9,10 +9,10 @@
   --body-font: "Questrial", sans-serif;
 }
 
-/* html, body {
-  margin:0px;
-  height:100%;
-} */
+html, body {
+  margin: 0px 0.5rem;
+  /* height:100%; */
+}
 
 
 html {

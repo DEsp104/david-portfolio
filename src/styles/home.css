@@ -13,18 +13,19 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
  
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
   .home {
     display: flex;
-    margin-top: 20%;
+    /* margin-top: 200px; */
+    
     font-family: var(--body-font);
-    height: 100vh;
-    margin-bottom: 12%;
+    height: 650px;
+    /* margin-bottom: 12%; */
+    padding-bottom: 3%;
+
     align-items: center;
+    padding-top: 10rem;
+    flex-direction: column;
+    /* justify-content: center; */
   }
   
   .flex {
@@ -41,7 +42,8 @@
   }
   
   .mobile-self-image {
-    width: 47%;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .self-image img {
@@ -64,7 +66,108 @@
   .logo {
     padding: 0;
     padding-right: 3rem;
-    margin-top: 12%;
+    margin-top: 6%;
+  }
+
+  .logo li {
+    padding: 0 0.5rem;
+    width: 53px;
+  }
+
+  .logo li img {
+    width: 100%;
+  }
+
+  intro-bio {
+    width: 100%;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .intro h2 {
+    font-size: 5vw;
+    font-family: var(--title-font);
+    color: var(--heavy-metal);
+    width: 100%;
+    text-align: center;
+  }
+
+  .intro p {
+    font-size: 2vw;
+    color: var(--heavy-metal);
+    text-align: center;
+  }
+
+  .porshe {
+    color: var(--porche);
+  }
+
+  .flex-column-justify{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .home {
+    display: flex;
+    margin-top: 200px;
+    font-family: var(--body-font);
+    height: 650px;
+    /* margin-bottom: 12%; */
+    padding-bottom: 3%;
+
+    align-items: center;
+    padding-top: 10rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .self-image {
+    /* width: 47%; */
+    display: none;
+  }
+  
+  .mobile-self-image {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .self-image img {
+    width: 100%;
+  }
+
+  .mobile-self-image img{
+    width: 100%;
+  }
+
+  .list-style{
+    list-style-type: none;
+  }
+
+  .flex-center {
+    align-items: center;
+    justify-content: start;
+  }
+
+  .logo {
+    padding: 0;
+    padding-right: 3rem;
+    margin-top: 6%;
   }
 
   .logo li {
@@ -115,6 +218,8 @@
 @media only screen and (min-width: 882px) {
   .home {
     margin-top: 85px;
+    /* margin-top: 20%; */
+    justify-content: inherit;
   }
 
   .self-image {
@@ -147,6 +252,10 @@
     text-align: left;
   }
   
+  .logo {
+    margin-top: 12%;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

@@ -1,0 +1,49 @@
+:root {
+  --heavy-metal: #454544;
+  --porche: #EFB560;
+  --di-serria: #DC9852;
+  --tana: #B7B39F;
+  --white-smoke: #F0F0F0;
+  --trout: #474D4F;
+  --title-font: "Ubuntu", sans-serif;
+  --body-font: "Questrial", sans-serif;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+    #about {
+      padding-top: 20%;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 882px and up) */
+@media only screen and (min-width: 882px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1400px) {
+
+
+}
