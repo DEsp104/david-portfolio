@@ -42,7 +42,7 @@
   }
   
   .mobile-self-image {
-    width: 100%;
+    width: 360px;
     margin: 0 auto;
   }
 
@@ -291,7 +291,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .self-image {
-    width: 696px;
+    width: 590px;
   }
   
 }

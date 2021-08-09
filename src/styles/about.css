@@ -12,6 +12,17 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  #about {
+    padding-top: 20%;
+    height: 100vh;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+  }
  
 }
 
@@ -20,12 +31,12 @@
 @media only screen and (min-width: 600px) {
 
     #about {
-      padding-top: 20%;
+      /* padding-top: 20%; */
       /* height: 100vh; */
-      min-height: 100vh;
+      height: 720px;
       display: flex;
       flex-direction: column;
-      /* justify-content: center; */
+      justify-content: center;
       align-items: center;
 
     }
@@ -40,7 +51,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: start;
     align-items: center;
 
   }
