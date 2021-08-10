@@ -13,15 +13,116 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+  #contact {
+    
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #contact h2 {
+    text-align: center;
+    font-size: 4.5vw;
+    font-family: var(--title-font);
+    color: var(--white-smoke);
+    margin-bottom: 4px;
+    padding-top: 2rem;
+    color: var(--heavy-metal);
+}
+
+.contact-top-underline {
+  background-color: var(--white-smoke);
+    width: 55%;
+    height: 4px;
+    margin: 2px auto;
+}
+
+#contact ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#contact ul li {
+  list-style-type: none;
+  width: 15%;
+}
+
+#contact ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-p {
+    width: 100%;
+    padding: 7%;
+    margin: 0;
+    text-align: center;
+    font-family: var(--body-font);
+    color: var(--heavy-metal);
+    font-size: 3.2vw;
+}
+
+.contact-underline{
+  background-color: var(--porche);
+  width: 229px;
+    height: 4px;
+    margin: 0 auto;
+}
+
+
+.github-email-linkedin {
+  width: 100%;
+  background-color: #454544ba;
+  padding: 6%;
+}
+
+.tel-location{
+  color: var(--heavy-metal);
+  font-family: var(--body-font);
+  font-size: 4vw;
+  width: 100%;
+}
+
+.location-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-logo img {
+  width: 27px;
+  display: inline-block;
+  margin-right: 2%;
+}
+
+.phoneLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneLogo img {
+  width: 44px;
+  display: inline-block;
+  margin-right: 2%;
+}
+
+
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) {
   #contact {
-    background-color: #454544ba;
+    
     height: 55rem;
-     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 
   #contact h2 {
@@ -31,23 +132,27 @@
     color: var(--white-smoke);
     margin-bottom: 4px;
     padding-top: 2rem;
+    color: var(--heavy-metal);
+}
+
+.contact-top-underline {
+  background-color: var(--white-smoke);
+    width: 55%;
+    height: 4px;
+    margin: 2px auto;
 }
 
 #contact ul {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  margin-top: 12rem;
 }
 
 #contact ul li {
   list-style-type: none;
 }
 
-#contact p {
-    position: absolute;
-    bottom: 0;
-    background: var(--white-smoke);
+.contact-p {
     width: 100%;
     padding: 2rem;
     margin: 0;
@@ -63,11 +168,56 @@
     margin: 0 auto;
 }
 
+
+.github-email-linkedin {
+  width: 100%;
+  background-color: #454544ba;
+  padding: 2rem;
+}
+
+.tel-location{
+  color: var(--heavy-metal);
+  font-family: var(--body-font);
+  font-size: 1.6rem;
+}
+
+.location-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-logo img {
+  width: 27px;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.phoneLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneLogo img {
+  width: 44px;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  #contact h2 {
+    font-size: 2.8rem;
+  }  
+
+  .tel-location {
+      font-size: 1.8rem;
+  }
 
 }
 
