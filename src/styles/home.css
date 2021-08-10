@@ -12,7 +12,10 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
- 
+  html, body {
+    margin: 0.1%;
+   }
+
   .home {
     display: flex;
     /* margin-top: 200px; */
@@ -42,7 +45,7 @@
   }
   
   .mobile-self-image {
-    width: 360px;
+    width: 300px;
     margin: 0 auto;
   }
 
