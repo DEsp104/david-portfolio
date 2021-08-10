@@ -1,0 +1,78 @@
+:root {
+  --heavy-metal: #454544;
+  --porche: #EFB560;
+  --di-serria: #DC9852;
+  --tana: #B7B39F;
+  --white-smoke: #F0F0F0;
+  --trout: #474D4F;
+  --title-font: "Ubuntu", sans-serif;
+  --body-font: "Questrial", sans-serif;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+  #contact {
+    background-color: #454544ba;
+    height: 55rem;
+     position: relative;
+  }
+
+  #contact h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: var(--title-font);
+    color: var(--white-smoke);
+    margin-bottom: 4px;
+    padding-top: 2rem;
+}
+
+#contact p {
+    position: absolute;
+    bottom: 0;
+    background: var(--white-smoke);
+    width: 100%;
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+    font-family: var(--body-font);
+    color: var(--heavy-metal);
+}
+
+.contact-underline{
+  background-color: var(--porche);
+    width: 249px;
+    height: 4px;
+    margin: 0 auto;
+}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+/* Large devices (laptops/desktops, 882px and up) */
+@media only screen and (min-width: 882px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+}
+
+
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1400px) {
+}
