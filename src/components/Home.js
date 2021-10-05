@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex intro-bio">
         <div className="flex-column-justify intro">
           <div>
-            <h2><span className="porshe">Hi, I'm</span> David Espinal</h2>
+            <h2><span className="porshe">Hi, I'm</span> David Lora</h2>
             <p>I'm a Software Developer</p>
             <div className="mobile-self-image">
           <img src={selfImage} alt="" />
