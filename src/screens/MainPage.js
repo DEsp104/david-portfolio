@@ -17,7 +17,7 @@ export default function MainPage() {
       <About />
       <Works />
       <Contact />
-      <p className="contact-p">Copy Right 2021 © By David Espinal All Rights Reserved</p>
+      <p className="contact-p">Copy Right 2021 © By David Lora All Rights Reserved</p>
     </div>
   )
 }
