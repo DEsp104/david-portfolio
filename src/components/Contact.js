@@ -18,7 +18,7 @@ export default function Home() {
       logoImg: mail,
     },
     {
-      link: "https://www.linkedin.com/in/david-espinal-28b91a1b7/",
+      link: "https://www.linkedin.com/in/david-lora-28b91a1b7/",
       logoImg: linkedin,
     }
   ]
