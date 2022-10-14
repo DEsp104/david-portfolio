@@ -1,0 +1,191 @@
+:root {
+  --heavy-metal: #454544;
+  --porche: #EFB560;
+  --di-serria: #DC9852;
+  --tana: #B7B39F;
+  --white-smoke: #F0F0F0;
+  --trout: #474D4F;
+  --title-font: "Ubuntu", sans-serif;
+  --body-font: "Questrial", sans-serif;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  #about {
+    /* padding-top: 20%; */
+    width: 100%;
+    height: auto;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: url("../images/background/backgroundCode.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .background-img {
+    background-image: url("../images/background/backgroundCode.jpg"), #efb560e8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+    /* margin-top: 174px; */
+    
+  }
+
+  .background-color {
+    width: 100%;
+    height: 100%;
+    background-color: #efb560e8;
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  .background-color h2 {
+    text-align: center;
+    font-size: 4.5vw;
+    font-family: var(--title-font);
+    color: var(--heavy-metal);
+    margin-bottom: 4px;
+  }
+
+  .underline {
+    background-color: var(--white-smoke);
+    width: 37%;
+    height: 4px;
+    margin: 0 auto; 
+  }
+
+  .background-color p {
+    font-family: var(--body-font);
+    color: var(--heavy-metal);
+    line-height: 10vw;
+    font-size: 3.3vw;
+  };
+ 
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+
+    #about {
+      /* padding-top: 20%; */
+      /* height: 100vh; */
+      height: 720px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-items: center;
+    }
+
+    .background-img {
+      background-image: url("../images/background/backgroundCode.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      width: 100%;
+      height: 100%; 
+      margin-top: 174px;
+    }
+
+    .background-color {
+      width: 100%;
+      height: 100%;
+      background-color: #efb560e8;
+      display: inline-block;
+      padding: 1rem;
+    }
+
+    .background-color h2 {
+      text-align: center;
+      font-size: 2.3rem;
+      font-family: var(--title-font);
+      color: var(--heavy-metal);
+      margin-bottom: 4px;
+    }
+
+    .underline {
+      background-color: var(--white-smoke);
+      width: 249px;
+      height: 4px;
+      margin: 0 auto; 
+    }
+
+    .background-color p {
+      font-family: var(--body-font);
+      color: var(--heavy-metal);
+      line-height: 3rem;
+      font-size: 1.3rem;
+    };
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #about {
+    padding-top: 0%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+  }
+
+  .background-img {
+    margin-top: 0px;
+  }
+
+
+  .background-color {
+    padding: 4rem;
+  }
+  
+  .background-color h2 {
+    font-size: 2.8rem;
+  }
+
+  .underline {
+    background-color: var(--white-smoke);
+    width: 229px;
+    height: 4px;
+    margin: 0 auto; 
+  }
+
+}
+
+/* Large devices (laptops/desktops, 882px and up) */
+@media only screen and (min-width: 882px) {
+
+  .background-color {
+    padding: 6rem;
+  }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .background-color {
+    padding: 8rem;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1400px) {
+  .background-color {
+    padding: 10rem;
+  }
+}
